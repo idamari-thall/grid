@@ -1,0 +1,54 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+    /* grid-gap: ;  should be avoided*/
+    /* 6 horisontellt
+5 vertikalt */
+    width: ;
+    height: ;
+}
+
+.first {
+    background-color: #fbf8cc;
+}
+
+.second {
+    background-color: #fde4cf;
+}
+
+.third {
+    background-color: #ffcfd2;
+}
+
+.forth {
+    background-color: #f1c0e8;
+}
+
+.fifth {
+    background-color: #cfbaf0;
+}
+
+.sixth {
+    background-color: #a3c4f3;
+}
+
+.seventh {
+    background-color: #90dbf4;
+}
+
+.eigth {
+    background-color: #8eecf5;
+}
+
+.ninth {
+    background-color: #98f5e1;
+}
+
+.tenth {
+    background-color: #b9fbc0;
+}
+
+.eleventh {
+    background-color: #aaf683;
+}
