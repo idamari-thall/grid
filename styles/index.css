@@ -1,8 +1,6 @@
 .grid__container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    grid-auto-rows: 10%;
+    grid-template: repeat(10, 1fr) / repeat(6, 1fr);
     height: 100vh;
     grid-gap: 5px;
     padding: 5px;
@@ -62,4 +60,15 @@
 .eleventh {
     background-color: #aaf683;
     grid-area: 9 / 3 / 11 / 4;
+}
+
+.twelfth {
+    background-color: #a9adb3;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 70px;
+    text-transform: uppercase;
 }
